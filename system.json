@@ -1,14 +1,15 @@
 {
   "name": "troika-foundry",
-  "title": "Troika!",
-  "description": "A Troika! system for FoundryVTT.",
-  "version": "0.0.1",
-  "minimumCoreVersion": "0.5.6",
-  "compatibleCoreVersion": "0.5.7",
+  "title": "troika",
+  "description": "The troika system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.5.5",
   "templateVersion": 2,
-  "author": "mturbe",
-  "esmodules": ["module/simple.js"],
-  "styles": ["styles/simple.css"],
+  "author": "Michael Turbe",
+  "esmodules": ["module/troika-foundry.js"],
+  "styles": ["css/troika-foundry.css"],
+  "scripts": [],
   "packs": [],
   "languages": [
     {
@@ -21,8 +22,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://gitlab.com/foundrynet/worldbuilding/",
-  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
-  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-036/worldbuilding-release-036.zip",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "license": "LICENSE.txt"
 }
